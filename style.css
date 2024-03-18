@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100&family=Indie+Flower&family=Lobster&family=Quicksand:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color:skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    display: flex;
+    margin: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+nav ul li a:hover{
+    color: rgba(107, 40, 215, 0.801);
+    text-shadow: 2px 4px 8px rgb(138, 60, 4);
+}
+span{
+    color: darkblue;
+    font-size: x-large;
+    text-decoration: double;
+}
+
+#home{
+    display: flex;
+    height: 800px;
+
+}
+#home::before{
+    content: "";
+    background-image: url('https://akm-img-a-in.tosshub.com/businesstoday/images/story/202305/download_12_1-sixteen_nine.jpg?size=948:533');
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    background-size:cover;
+}
+.main{
+    position: absolute;
+    padding: 70px;
+    top:400px;
+    left: 10%;
+}
+h2{
+    color: white;
+}
+h1{
+    text-align: start;
+    font-size: xx-large;
+    margin: 10px;
+}
+h1:hover{
+    text-shadow: 3px 4px 5px black;
+}
+.pic p{
+    margin: 20px;
+    text-align: justify;
+}
+h3{
+    text-align: center;
+    font-size: xx-large;
+}
+.pic img{
+    width: 400px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 650px;
+}
+p{
+    font-size:large;
+}
+.row{
+    display: flex;
+   
+}
+
+.box{
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+    margin-left: 15px;
+    border: 2px ridge rgb(138, 60, 4);
+    background-color: skyblue;
+}
+.box:hover{
+    background-position: left bottom;
+    border: none;
+    box-shadow: 3px 4px 5px 3px black;
+}
+.box img{
+    width: 100%;
+}
+.box h4{
+    text-align: center;
+    color: rgb(56, 8, 100);
+    padding: 10px;
+}
+.box p{
+    text-align: justify;
+    margin: 20px;
+}
+.gallery{
+    margin-left: 50px;
+    display: flex;
+}
+.gallery img{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+}
+.gallery img:hover{
+    box-shadow: 3px 4px 5px 6px;
+
+}
+.gallery h5{
+    text-align: center;
+    margin-top: 100px;
+    font-size: large;
+}
+.location{
+    width: 400px;
+    height: 500px;
+}
+.video{
+    width: 350px;
+    height: 400px;
+    margin: 10px;
+    display: flex;
+    
+}
+footer{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+   display: flex;
+   align-items: center;
+   height: 50px;
+   width: 50px;
+}
+.contact img{
+    height: 50px;
+    width: 50px; 
+}
+.contact a{
+    align-items: center;
+    justify-content: center;
+}
+.contact a img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+
+
+
+
